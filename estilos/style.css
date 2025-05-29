@@ -60,6 +60,8 @@ main {
 }
 
 .campo {
+  display: flex;
+  align-items: center;
     background-color: #939393;
     border: 2px solid #939393;
     height: 40px;
@@ -85,13 +87,13 @@ div.campo label {
 .campo input {
     background-color: #505050;
     font-size: 1em;
-    width: calc(100% - 45px);
+    width: calc(100% - 40px);
     height: 100%;
     border: 0px;
     border-radius: 7px;
     padding: 4px;
-    transform: translateY(-10px);
-}
+   }
+
 
 input[type=submit] {
     display: block;
